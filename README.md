@@ -6,4 +6,4 @@
 `XGpioPs_Config *mio_cfg_ptr;`
 `mio_cfg_ptr = XGpioPs_LookupConfig(GPIO_DEVICE_ID);`
 
-先声明一个指向 XGpioPs_Config 的指针，再通过`XGpioPs_LookupConfig`函数根据设备ID查找和返回一个 GPIO 配置结构体的指针。它查找硬件配置并返回一个指向 `XGpioPs_Config` 类型的指针。
+先声明一个指向`XGpioPs_Config`的指针，再通过`XGpioPs_LookupConfig`函数根据设备ID查找和返回一个 GPIO 配置结构体的指针。它查找硬件配置并返回一个指向 `XGpioPs_Config` 类型的指针。
